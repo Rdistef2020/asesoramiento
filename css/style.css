@@ -1,0 +1,178 @@
+.color{
+    background: linear-gradient(180deg, rgb(132 57 156) 0%, rgb(255 183 159) 100%);
+}
+
+.fondo{background-color: #FFE8E8; 
+    height: 100vh;
+}
+    .servicio{
+        font-family: sans-serif ;
+        color: rgb(82, 57, 129);
+        text-align: center;
+    }
+    
+  .carroll {
+      width: 90%;
+margin-left: auto;
+margin-right: auto;
+
+  }
+
+  
+
+ /* .menu { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+  } */
+    .section-servicio{
+    
+        /* background-color: #b5adad; */
+        background-image: linear-gradient(#b5adad,rgb(250, 242, 242) ) ;
+        border-radius: 6px;
+        margin-top: 60px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-bottom:40px;
+    
+    }
+    .papa-servicio{
+        display: flex;
+        flex-direction: row; 
+       justify-content: space-between;
+    
+        background: #d4d1d1;
+        border-radius: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .item{color:#061539;
+        
+    }    
+
+    .link {   color: #e9a4a8;
+        text-decoration: none;
+        border: rosybrown outset 2px;
+            border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+   padding: 4px;
+  
+      }
+/* formulario menu contacto */
+      form{
+        padding: 40px;
+        max-width: 400px;
+         background-color: #D46A6A;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 10px;
+      }
+      
+      form input, form textarea{
+        margin-bottom: 15px;
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        padding: 10px;
+         box-sizing: border-box; 
+        border: none; 
+        color: #525c66; 
+        font-size: 1em;
+        resize: horizontal; 
+      }
+      footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #b5adad;
+        margin-top: 200px;
+      }
+
+      .sec{
+         margin: top 10px; 
+      }
+
+      .quien {
+        max-width: 800px;
+        padding: 1rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 200px 100px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        grid-gap: 1rem;
+      }
+       /* grip quienes somos */
+
+      .q1 {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+      }
+       
+      .F-A {
+        grid-row: 1 / 3;
+        
+      }
+        
+      .F-B {
+        grid-column: 3 / 5;
+           padding-top: 35px;
+        padding-bottom: 20px;
+    
+        
+       
+      } 
+       
+      .F-C {
+        grid-row: 2 / 4;
+      }
+       
+      .F-D {
+        grid-column: 3 / 5; 
+      }
+       /* grip quienes somos */
+      
+
+       .coach-1{
+        margin-bottom: 100px;
+    }
+       .coach-3{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+      
+    }
+    .coach-4{
+    padding: 90px;
+    border-top-width: 200px;
+    }
+    .guarda-1{
+        width: 240px;
+    }
+    .coach-2{
+      font-family: 'Roboto', sans-serif;
+          font-size: 50px;
+      color: rgb(82, 57, 129);
+      text-transform: capitalize
+  }
+  .flexase{ display: flex;
+    width: 500px;
+    height: 100px;
+     margin-left: 5px;
+     margin-right: 5px;
+     padding-left: 5px;
+     padding-right:5px;
+     text-align: left;
+     margin-top: 40px;
+     padding-bottom: 30px;
+     
+ }
