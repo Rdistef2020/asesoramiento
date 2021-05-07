@@ -18,7 +18,7 @@ margin-right: auto;
 
   }
 
-  
+  @media only screen and (max-width: 780px);
 
  /* .menu { 
     display: flex;
@@ -109,7 +109,9 @@ margin-right: auto;
         grid-template-rows: 200px 200px 200px;
         grid-gap: 1rem;
       }
-       /* grip quienes somos */
+      /* Finn formulario menu contacto */
+
+       /* Inicio grip quienes somos */
 
       .q1 {
         object-fit: cover;
@@ -128,8 +130,7 @@ margin-right: auto;
            padding-top: 35px;
         padding-bottom: 20px;
     
-        
-       
+               
       } 
        
       .F-C {
@@ -143,12 +144,14 @@ margin-right: auto;
       
 
        .coach-1{
-        margin-bottom: 100px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+        margin-left: 5px;
     }
        .coach-3{
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 90px;
       
     }
     .coach-4{
@@ -163,6 +166,7 @@ margin-right: auto;
           font-size: 50px;
       color: rgb(82, 57, 129);
       text-transform: capitalize
+      
   }
   .flexase{ display: flex;
     width: 500px;
@@ -172,7 +176,55 @@ margin-right: auto;
      padding-left: 5px;
      padding-right:5px;
      text-align: left;
-     margin-top: 40px;
+     margin-top: -20px;
      padding-bottom: 30px;
      
  }
+
+ .flexase2{ display: flex;
+  width: 500px;
+  height: 100px;
+   margin-left: 5px;
+   margin-right: 5px;
+   padding-left: 5px;
+   padding-right:5px;
+   text-align: left;
+   margin-top: 30px;
+   padding-bottom: 30px;
+   
+}
+
+.linea2 {display: flex;
+  margin-top: 35px;
+
+}
+
+ .ighombre {
+      margin-bottom: 50px;
+        margin-top: 40px;
+        padding-left: 5px;
+        padding: right 400px;
+        
+ }
+ .vestimenta{
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 500px;
+  padding-left: -1px;
+   padding-right:400px;
+ }
+
+ .SIH{
+  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 5px;
+ }
+
+
+ @media only screen and (max-width: 420px){
+  .menu ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
